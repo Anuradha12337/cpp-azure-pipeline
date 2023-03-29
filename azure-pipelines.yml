@@ -12,7 +12,7 @@ pr:
 pool:
   vmImage: ubuntu-latest
 
-resource:
+resources:
   containers:
     - container: ubuntu-custom
       image: mattgomes28/cpp-ubuntu-bionic:0.7
